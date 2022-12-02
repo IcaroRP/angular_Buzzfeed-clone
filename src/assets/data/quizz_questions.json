@@ -1,0 +1,51 @@
+{
+  "title":"Que tipo de Windows você seria?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual o tipo de paisagem que você mais gosta?",
+      "options":[
+        {"id": 1, "name":"Adoro campos vazios com grama aparada", "alias":"A"},
+        {"id": 2, "name":"Um local brutalista, quadrado e agressivo", "alias":"B"},
+        {"id": 3, "name":"Uma ambiente virtual tecnológico dos tempos passados", "alias":"C"},
+        {"id": 4, "name":"Um local mais sofisticado e organizado", "alias":"D"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Como você instala os seus programas?",
+      "options":[
+        {"id": 1, "name":"Gosto de baixar direto da loja da Microsoft", "alias":"D"},
+        {"id": 2, "name":"Prefiro pesquisar o site do aplicativo e baixar direto de lá", "alias":"B"},
+        {"id": 3, "name":"Baixo de qualquer lugar que ofereça o download", "alias":"A"},
+        {"id": 4, "name":"Faço uso de discos de instalação no meu computador", "alias":"C"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Como você gosta do seu Windows Update?",
+      "options":[
+        {"id": 1, "name":"Desativado para não baixar a performace do meu PC", "alias":"A"},
+        {"id": 2, "name":"Ligado para me deixar seguro com suas atualizações de segurança", "alias":"B"},
+        {"id": 3, "name":"Ligado e ativo para baixar as novas versões", "alias":"D"},
+        {"id": 4, "name":"Não sei", "alias":"C"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Como você organiza seus arquivos e Apps?",
+      "options":[
+        {"id": 1, "name":"Mantenho tudo organizado em pastas e fixados", "alias":"D"},
+        {"id": 2, "name":"Deixo tudo em uma única partição", "alias":"B"},
+        {"id": 3, "name":"Sistema operacional em uma partição e arquivos em outra partição", "alias":"A"},
+        {"id": 4, "name":"Deixo meus aquivos pessoais na lixeira", "alias":"C"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você é um Windows XP Service Pack 3!",
+    "B": "Você é um Windos 10!",
+    "C": "Você é um Windos 95!",
+    "D": "Você é um Windos 11!"
+  }
+}
